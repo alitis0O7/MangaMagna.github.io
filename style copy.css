@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'MioFont';
+    src: url('mangatb.ttf') format('truetype');
+}
+
+body{
+    background-color: rgb(255, 170, 0);
+    font-family: 'MioFont', sans-serif;
+    border-radius: 14%;
+    border-width: 1;
+    word-spacing: 3;
+    margin-right: 10px;
+}
+button{
+    background-color: rgb(255, 170, 0);
+    font-family: 'MioFont', sans-serif;
+    color: black;
+    word-spacing: 3;
+    margin-right: 10px;
+    border-width: 5px;
+   border-color: gold;
+   border-radius: 10px;
+   padding: 5px;
+
+}
+h1{
+    background-color: rgb(255, 237, 119);
+    color: black;
+    border-width: 5px;
+    border-color: gold;
+   border-radius: 10px;
+   padding: 5px;
+}
+h2{
+    background-color: rgb(255, 237, 119);
+   border-width: 5px;
+   color: rgb(0, 0, 0);
+   border-color: gold;
+   border-radius: 10px;
+   padding: 5px;
+}
+em{
+    background-color: rgb(255, 237, 119);
+    font-family: 'MioFont', sans-serif;
+    color: black;
+    word-spacing: 3;
+    margin-right: 10px;
+    border-width: 5px;
+   border-color: gold;
+   border-radius: 10px;
+   padding: 5px;
+}
+a{
+    color: black;
+}
