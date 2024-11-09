@@ -23,6 +23,18 @@ button {
     border-radius: 10px;
     padding: 5px;
 }
+.buy {
+    background-color: rgb(19,25,33);
+    font-family: 'MioFont', sans-serif;
+    color: rgb(255, 255, 255);
+    word-spacing: 3px;
+    margin-right: 10px;
+    border-width: 5px;
+    border-color: rgb(64, 87, 114);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 50;
+}
 
 h1 {
     border-width: 5px;
@@ -32,7 +44,10 @@ h1 {
     border-color: rgb(64, 87, 114); 
     border-radius: 10px;
     padding: 5px;
-    width: 170px;
+    font-size: 50;
+}
+h1 img {
+    height: 500 ;
 }
 
 h2 {
