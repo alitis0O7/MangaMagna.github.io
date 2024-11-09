@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(255, 170, 0);
+    background-color: rgb(227,230,230);
     font-family: 'MioFont', sans-serif;
     border-radius: 14%;
     border-width: 1px;
@@ -13,13 +13,13 @@ body {
 }
 
 button {
-    background-color: rgb(255, 170, 0);
+    background-color: rgb(19,25,33);
     font-family: 'MioFont', sans-serif;
-    color: black;
+    color: rgb(255, 255, 255);
     word-spacing: 3px;
     margin-right: 10px;
     border-width: 5px;
-    border-color: gold;
+    border-color: rgb(64, 87, 114);
     border-radius: 10px;
     padding: 5px;
 }
@@ -35,11 +35,11 @@ h1 {
 }
 
 h2 {
-    background-color: rgb(255, 237, 119);
-    color: black;
+    background-color: rgb(35,47,62);
+    color: rgb(255, 255, 255);
     border-width: 5px;
     border-style: solid;
-    border-color: gold;
+    border-color: rgb(64, 87, 114);
     border-radius: 10px;
     padding: 5px;
 }
@@ -73,16 +73,39 @@ a {
     padding: 10px;
 }
 
-.manga-item {
-    background-color: rgb(255, 237, 119);
+.manga-item-a {
+    background-color: rgb(35,47,62);
     padding: 10px;
-    border: 2px solid gold;
+    border: 5px solid rgb(64, 87, 114);
     border-radius: 10px;
     text-align: center;
     flex: 0 0 calc(33.33% - 20px); /* Larghezza di ogni elemento manga per 3 colonne */
     box-sizing: border-box; /* Include padding e border nella larghezza totale */
 }
-.manga-item img {
+.manga-item-a img {
     width: 100%;
     height: auto;
+}
+.manga-item-a h1{
+    background-color: rgb(35,47,62);
+    color: white;
+    border-color: rgb(64, 87, 114);    
+}
+.manga-item-n {
+    background-color: rgb(255, 71, 71);
+    padding: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+    flex: 0 0 calc(33.33% - 20px); /* Larghezza di ogni elemento manga per 3 colonne */
+    box-sizing: border-box; /* Include padding e border nella larghezza totale */
+    
+}
+.manga-item-n img {
+    width: 100%;
+    height: auto;
+}
+.manga-item-n h1{
+    background-color: rgb(255, 71, 71);
+    border-color: black;
 }

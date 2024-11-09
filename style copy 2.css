@@ -11,35 +11,37 @@ body{
     word-spacing: 3;
     margin-right: 10px;
 }
-button{
-    background-color: rgb(255, 170, 0);
+button {
+    background-color: rgb(19,25,33);
     font-family: 'MioFont', sans-serif;
-    color: black;
-    word-spacing: 3;
+    color: rgb(255, 255, 255);
+    word-spacing: 3px;
     margin-right: 10px;
     border-width: 5px;
-   border-color: gold;
-   border-radius: 10px;
-   padding: 5px;
-   height: 100;
-   width: 100;
-
+    border-color: rgb(64, 87, 114);
+    border-radius: 10px;
+    padding: 5px;
+    height: 100;
+    width: 100;
 }
-h1{
-    background-color: rgb(255, 237, 119);
-   border-width: 5px;
-   border-color: gold;
-   border-radius: 10px;
-   padding: 5px;
-   width: 1559px;
+h1 {
+    background-color: rgb(35,47,62);
+    color: rgb(255, 255, 255);
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(64, 87, 114);
+    border-radius: 10px;
+    padding: 5px;
+    width: 1559px;
 }
-h2{
-    background-color: rgb(255, 237, 119);
-   border-width: 5px;
-   color: rgb(0, 0, 0);
-   border-color: gold;
-   border-radius: 10px;
-   padding: 5px;
+h2 {
+    background-color: rgb(35,47,62);
+    color: rgb(255, 255, 255);
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(64, 87, 114);
+    border-radius: 10px;
+    padding: 5px;
 }
 em{
     background-color: rgb(255, 237, 119);
