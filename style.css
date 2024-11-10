@@ -22,8 +22,11 @@ button {
     border-color: rgb(64, 87, 114);
     border-radius: 10px;
     padding: 5px;
+    transition: all 0.2s ease;
 }
-
+button:active{
+    transform: scale(0.96);
+}
 h1 {
     background-color: rgb(255, 237, 119);
     border-width: 5px;
@@ -80,7 +83,11 @@ a {
     border-radius: 10px;
     text-align: c0 calenter;
     flex: 0 c(33.33% - 20px); /* Larghezza di ogni elemento manga per 3 colonne */
-    box-sizing: border-box; /* Include padding e border nella larghezza totale */
+    box-sizing: border-box;
+    transition: transform 0.4s ease; /* Include padding e border nella larghezza totale */
+}
+.manga-item-a:hover{
+    transform: translateY(-10px);
 }
 .manga-item-a img {
     width: 100%;
@@ -91,9 +98,7 @@ a {
     color: white;
     border-color: rgb(64, 87, 114);    
 }
-.manga-item-n:hover{
-    font-size: large;
-}
+
 .manga-item-n {
     background-color: rgb(255, 71, 71);
     padding: 10px;
@@ -101,8 +106,12 @@ a {
     border-radius: 10px;
     text-align: center;
     flex: 0 0 calc(33.33% - 20px); /* Larghezza di ogni elemento manga per 3 colonne */
-    box-sizing: border-box; /* Include padding e border nella larghezza totale */
-    
+    box-sizing: border-box;
+    transition: transform 0.4s ease; /* Include padding e border nella larghezza totale */
+
+}
+.manga-item-n:hover{
+    transform: translateY(-10px)
 }
 .manga-item-n img {
     width: 100%;
@@ -111,4 +120,5 @@ a {
 .manga-item-n h1{
     background-color: rgb(255, 71, 71);
     border-color: black;
+    
 }
