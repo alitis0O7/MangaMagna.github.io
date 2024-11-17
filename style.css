@@ -91,7 +91,7 @@ a {
 }
 .manga-item-a img {
     width: 100%;
-    height: auto;
+    height: 280px;
 }
 .manga-item-a h1{
     background-color: rgb(35,47,62);
