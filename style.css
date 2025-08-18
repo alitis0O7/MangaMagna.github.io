@@ -81,8 +81,8 @@ a {
     padding: 10px;
     border: 5px solid rgb(64, 87, 114);
     border-radius: 10px;
-    text-align: c0 calenter;
-    flex: 0 c(33.33% - 20px); /* Larghezza di ogni elemento manga per 3 colonne */
+    text-align: center;
+    flex: 0 calc(33.33% - 20px); /* Larghezza di ogni elemento manga per 3 colonne */
     box-sizing: border-box;
     transition: transform 0.4s ease; /* Include padding e border nella larghezza totale */
 }
@@ -91,7 +91,7 @@ a {
 }
 .manga-item-a img {
     width: 100%;
-    height: 280px;
+    height: auto;
 }
 .manga-item-a h1{
     background-color: rgb(35,47,62);
